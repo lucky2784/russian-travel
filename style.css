@@ -1,0 +1,31 @@
+.page {
+    /* display: grid;  */
+	width: 1280px;
+	height: 6875px;
+	background: #2A2C2F;
+	color: #fff;
+	margin: auto;
+	border: 1px solid red;
+}
+
+  
+  .cover {
+	position: relative;
+	margin: 12px 48px 0;
+  }
+   .cover__title {
+
+   }
+  .cover__overley {
+	background-image: url(image/__background.jpg);
+	background-position: center;
+	background-size: cover;
+	opacity: 0.8;
+	padding-top: calc(740 / 1184 * 100%);
+  }
+  
+  .cover__overley:hover {
+	opacity: 0.3;
+  }
+  
+  
