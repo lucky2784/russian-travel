@@ -1,0 +1,11 @@
+.intro {
+    display: flex;
+    flex-direction: column;
+    min-width: 690px;
+    min-height: 429px;
+    margin-top: 92px;
+    margin-right: 442px;
+    margin-left: 148px;
+    margin-bottom: 92px;
+    /* border: 1px solid red; */
+  }

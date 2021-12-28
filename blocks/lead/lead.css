@@ -1,0 +1,11 @@
+.lead {
+    display: flex;
+    flex-direction: column;
+    margin-left: 148px;
+    margin-right: 148px;
+    margin-top: 0;
+    min-width: 984px;
+    min-height: 1005px;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+  }

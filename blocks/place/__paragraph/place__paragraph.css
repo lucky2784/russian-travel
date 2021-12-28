@@ -1,0 +1,11 @@
+.place__paragraph {
+    margin: 0px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 163%;
+}
+
+.place__paragraph:not(:last-child) {
+    margin-bottom: 26px;
+}
