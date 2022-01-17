@@ -1,11 +1,12 @@
 .place {
-    display: grid;
-    width: 100%;
-    grid-template-columns: repeat(2, auto);
-    column-gap: 40px;
-    row-gap: 48px;
-  }
-  
-  .place:not(:last-child) {
-    margin-bottom: 80px;
-  }
+  width: 100%;
+  margin-bottom: 80px;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  column-gap: 40px;
+  row-gap: 48px;
+}
+
+.place:last-of-type {
+  margin-bottom: 0;
+}

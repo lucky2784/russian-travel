@@ -1,11 +1,12 @@
 .place__paragraph {
-    margin: 0px;
+    padding-top: 0;
+    padding-bottom: 26px;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 163%;
-}
-
-.place__paragraph:not(:last-child) {
-    margin-bottom: 26px;
-}
+  }
+  
+  .place__paragraph:not(:last-child) {
+    padding-bottom: 26px;
+  }

@@ -1,4 +1,4 @@
-.footer__link {
+/* .footer__link {
     text-decoration: none;
     color: #fff;
     margin-right: 18px;
@@ -7,8 +7,21 @@
     line-height: 18px;
     opacity: 1;
     transition: 0.3s ease;
+  } */
+
+  .footer__link {
+    padding-right: 18px;
+    text-decoration: none;
+    list-style-type: none;
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    /* opacity: 1;
+    transition: 0.3s ease; */
   }
-  .footer__link:last-of-type {
+  
+  /* .footer__link:last-of-type {
     margin-right: 0;
     margin-bottom: 0;
   }
@@ -16,14 +29,14 @@
   .footer__link:hover {
     opacity: 0.5;
     transition: 0.3s ease;
-  }
+  } */
   
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 768px) {
     .footer__link {
         font-size: 24px;
         line-height: 24px;
-        margin-left: 0;
-        margin-right: 0;
-        margin-bottom: 32px;
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 32px;
     }
   }

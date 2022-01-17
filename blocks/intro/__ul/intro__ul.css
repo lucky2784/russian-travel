@@ -1,12 +1,19 @@
 .intro__ul {
-    margin-left: 0;
-    padding-left: 0;
-    margin-top: 0;
-    margin-bottom: 0;
-    min-height: 90px;
-    min-width: 690px;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 18px;
-    font-style: normal;
+  margin-left: 0;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  min-height: 90px;
+  min-width: 690px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  font-style: normal;
+}
+@media screen and (max-width: 800px) {
+  .intro__ul {
+      min-width: 288px;
+
   }
+  
+}

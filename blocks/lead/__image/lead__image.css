@@ -1,6 +1,6 @@
 .lead__image {
-    position: relative;
-    width: 100%;
-    margin-bottom: 0;
-    /* border: 1px solid red; */
-  }
+  position: relative;
+  width: 100%;
+  padding-bottom: 0;
+  /* border: 1px solid red; */
+}
