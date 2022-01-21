@@ -6,12 +6,9 @@
   line-height: 36px;
   text-align: center;
   font-weight: 400;
-  /* padding-right: 172px;
-  padding-left: 172px; */
   padding-top: 32px;
   padding-bottom: 64px;
-  margin:0;
-  /* border: 1px solid red; */
+  margin: 0;
 }
 
 @media screen and (max-width: 1024px) {

@@ -11,30 +11,23 @@
   font-weight: 900;
   font-size: 96px;
   line-height: 100px;
-  /* border: 1px solid red; */
 }
 
-/* @media screen and (max-width: 1024px) {
-  .lead__title {
-    padding-left: 104px;
-    padding-right: 104px; 
-  }
-}  */
 
 @media screen and (max-width: 768px) {
   .lead__title {
     padding-left: 24px;
     padding-right: 24px;
   }
-} 
+}
 
 @media screen and (max-width: 320px) {
   .lead__title {
     min-width: 288px;
     min-height: 88px;
     padding-left: 16px;
-    padding-right: 16px; 
+    padding-right: 16px;
     font-size: 40px;
     line-height: 44px;
   }
-} 
+}

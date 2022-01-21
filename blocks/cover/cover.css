@@ -11,7 +11,6 @@
     .cover {
         max-width: 100%;
         min-height: 640px;
-        padding-top: 92px;
         padding-left: 0;
         padding-right: 0;
     }
@@ -28,7 +27,6 @@
 @media screen and (max-width: 320px) {
     .cover {
         min-height: 200px;
-        /* padding-top: 66px; */
         padding-bottom: 64px;
     }
 

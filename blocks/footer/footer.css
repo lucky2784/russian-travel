@@ -27,7 +27,8 @@
     min-width: 186px;
     min-height: 310px;
     flex-direction: column;
-    
-    
+    padding-left: 16px;
+
+
   }
 }

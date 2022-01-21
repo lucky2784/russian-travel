@@ -13,14 +13,13 @@
 @media screen and (max-width: 768px) {
   .footer__copyright {
     padding-right: 0;
-    
+
   }
 }
 
 @media screen and (max-width: 320px) {
   .footer__copyright {
     padding-top: 0;
-    padding-left: 16px;
     padding-right: 118px;
     text-align: left;
   }
