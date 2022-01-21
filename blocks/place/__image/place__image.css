@@ -7,3 +7,18 @@
   .place__image:hover {
     opacity: 0.3;
   }
+
+  @media screen and (max-width: 768px) {
+    .place__image {
+   
+    }
+  } 
+  
+  @media screen and (max-width: 320px) {
+    .place__image {
+      max-width: 320px;
+      width: 100%;
+     
+        
+    }
+  }

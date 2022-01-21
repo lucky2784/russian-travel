@@ -1,21 +1,27 @@
 .footer__copyright {
-  padding: 0;
   min-width: 186px;
+  max-height: 16px;
+  padding-top: 2px;
   font-size: 14px;
   line-height: 16px;
   font-style: normal;
   font-weight: 400;
+  text-align: right;
+  margin: 0;
 }
 
 @media screen and (max-width: 768px) {
   .footer__copyright {
-    padding-top: 16px;
-    line-height: 14px;
+    padding-right: 0;
+    
   }
 }
 
 @media screen and (max-width: 320px) {
   .footer__copyright {
     padding-top: 0;
+    padding-left: 16px;
+    padding-right: 118px;
+    text-align: left;
   }
 }

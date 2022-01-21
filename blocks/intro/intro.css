@@ -12,31 +12,31 @@
 
 @media screen and (max-width: 1024px) {
   .intro {
-    margin-left: 48px;
+    min-width: 690px;
+    min-height: 429px;
+    padding-right: 286px;
+    padding-left: 48px;
+
   }
 }
 
 @media screen and (max-width: 768px) {
   .intro {
     min-width: 720px;
-    padding-top: 88px;
-    padding-bottom: 88px;
-    padding-left: 24px;
+    min-height: 429px;
     padding-right: 24px;
+    padding-left: 24px;
+    padding-bottom: 88px;
   }
 }
 
-/* @media screen and (max-width: 320px) {
-  .intro {
-    min-width: 288px;
-  }
-} */
+
 
 @media screen and (max-width: 320px) {
   .intro {
-    padding-left: 16px;
-    padding-right: 16px;
-    padding-top: 64px;
-    padding-bottom: 64px;
+    min-width: 288px;
+    min-height: 754px;
+    padding: 64px 16px 64px;
+
   }
 }

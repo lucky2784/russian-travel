@@ -3,6 +3,7 @@
   max-height: 208px; */
   padding-top: 0;
   padding-bottom: 33px;
+  margin: 0;
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
@@ -12,7 +13,7 @@
   /* border: 1px solid red; */
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 320px) {
   .intro__text {
       padding-bottom: 34px;
   }

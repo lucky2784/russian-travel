@@ -3,9 +3,3 @@
   align-self: flex-end;
 }
 
-@media screen and (max-width: 350px) {
-  .header__lang-links {
-      padding-bottom: 8px;
-  }
-  
-}

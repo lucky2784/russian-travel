@@ -1,6 +1,6 @@
 .place {
   width: 100%;
-  margin-bottom: 80px;
+  padding-bottom: 80px;
   display: grid;
   grid-template-columns: repeat(2, auto);
   column-gap: 40px;
@@ -8,5 +8,11 @@
 }
 
 .place:last-of-type {
-  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+@media screen and (max-width: 320px) {
+  .place {
+    display: contents;
+  }
 }
