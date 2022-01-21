@@ -21,10 +21,6 @@
     grid-template-rows: auto;
     box-sizing: border-box;
     gap: 14px;
-    /* row-gap: 14px; */
-
-
-
   }
 }
 
@@ -36,7 +32,6 @@
     grid-template-rows: auto;
     box-sizing: border-box;
     gap: 14px;
-    /* row-gap: 14px; */
     padding-left: 24px;
     padding-right: 24px;
     padding-bottom: 88px;

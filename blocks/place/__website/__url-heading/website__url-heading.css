@@ -7,14 +7,14 @@
 
 @media screen and (max-width: 768px) {
   .website__url-heading {
-   padding-top: 46px;
+    padding-top: 46px;
   }
-} 
+}
 
 @media screen and (max-width: 320px) {
   .website__url-heading {
     padding-top: 32px;
-    padding-left:16px;
-      
+    padding-left: 16px;
+
   }
 }
