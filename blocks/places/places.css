@@ -18,7 +18,7 @@
         padding-left: 24px;
         padding-right: 24px;
         padding-top: 0;
-        padding-bottom: 90px;
+        /* padding-bottom: 90px; */
         min-width: 720px;
         min-height: 2808px;
     }
@@ -29,7 +29,7 @@
         padding-left: 0;
         padding-right: 0;
         padding-top: 0;
-        padding-bottom: 66px;
+        /* padding-bottom: 66px; */
         min-width: 320px;
         min-height: 5177px;
     }
