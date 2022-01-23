@@ -1,36 +1,36 @@
 .places {
-    padding: 0 148px 0;
-    min-width: 984px;
-    min-height: 3392px;
+  padding: 0 148px 0;
+  max-width: 984px;
+  min-height: 3392px;
 }
 
 @media screen and (max-width: 1024px) {
-    .places {
-        padding-left: 48px;
-        padding-right: 48px;
-        min-width: 928px;
-        min-height: 3292px;
-    }
+  .places {
+    padding-left: 48px;
+    padding-right: 48px;
+    max-width: 928px;
+    min-height: 3292px;
+  }
 }
 
 @media screen and (max-width: 768px) {
-    .places {
-        padding-left: 24px;
-        padding-right: 24px;
-        padding-top: 0;
-        /* padding-bottom: 90px; */
-        min-width: 720px;
-        min-height: 2808px;
-    }
+  .places {
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 0;
+    /* padding-bottom: 90px; */
+    max-width: 720px;
+    min-height: 2808px;
+  }
 }
 
 @media screen and (max-width: 320px) {
-    .places {
-        padding-left: 0;
-        padding-right: 0;
-        padding-top: 0;
-        /* padding-bottom: 66px; */
-        min-width: 320px;
-        min-height: 5177px;
-    }
+  .places {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    /* padding-bottom: 66px; */
+    max-width: 320px;
+    min-height: 5177px;
+  }
 }

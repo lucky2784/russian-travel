@@ -4,7 +4,6 @@
   padding-bottom: 12px;
 }
 
-
 @media screen and (max-width: 768px) {
   .place__url-heading {
     padding-top: 46px;
@@ -15,6 +14,5 @@
   .place__url-heading {
     padding-top: 32px;
     padding-left: 16px;
-
   }
 }

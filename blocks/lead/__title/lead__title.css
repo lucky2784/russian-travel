@@ -1,5 +1,5 @@
 .lead__title {
-  min-width: 720px;
+  max-width: 720px;
   /* min-height: 200px; */
   padding-left: 132px;
   padding-top: 0;
@@ -13,7 +13,6 @@
   line-height: 100px;
 }
 
-
 @media screen and (max-width: 768px) {
   .lead__title {
     padding-left: 24px;
@@ -23,7 +22,7 @@
 
 @media screen and (max-width: 320px) {
   .lead__title {
-    min-width: 288px;
+    max-width: 288px;
     /* min-height: 88px; */
     padding-left: 16px;
     padding-right: 16px;
