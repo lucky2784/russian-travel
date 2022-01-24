@@ -21,6 +21,7 @@
   .footer__copyright {
     padding-top: 0;
     padding-right: 118px;
+    line-height: 14px;
     text-align: left;
   }
 }
