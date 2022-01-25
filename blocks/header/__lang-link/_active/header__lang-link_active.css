@@ -1,20 +1,26 @@
 .header__lang-link_active {
   max-width: 30px;
   max-height: 28px;
-  padding-top: 46px;
+  padding-top: 18px;
   padding-bottom: 6px;
   text-decoration-line: underline;
+  list-style-type: none;
   text-align: right;
   color: #fff;
   font-size: 24px;
   line-height: 28px;
+  opacity: 1s;
+}
+
+.header__lang-link_active:hover {
+  opacity: .7;
 }
 
 @media screen and (max-width: 320px) {
   .header__lang-link_active {
     max-width: 22px;
     max-height: 20px;
-    padding-top: 30px;
+    padding-top: 14px;
     padding-bottom: 8px;
     font-size: 18px;
     line-height: 20px;

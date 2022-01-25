@@ -1,6 +1,11 @@
 .place__link {
   text-decoration-line: underline;
   color: #fff;
+  opacity: 1s;
+}
+
+.place__link:hover {
+  opacity: .7;
 }
 
 @media screen and (max-width: 320px) {

@@ -1,12 +1,17 @@
 .header__lang-link {
-  width: 29px;
-  height: 28px;
   text-decoration: none;
+  list-style-type: none;
   padding-left: 18px;
   color: #fff;
   font-size: 24px;
   line-height: 28px;
+  opacity: 1s;
 }
+
+.header__lang-link:hover {
+  opacity: .7;
+}
+
 
 @media screen and (max-width: 320px) {
   .header__lang-link {

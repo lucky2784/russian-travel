@@ -2,22 +2,22 @@
   padding-left: 0;
   padding-top: 0;
   margin: 0;
-  /* min-height: 90px; */
   min-width: 690px;
-  font-weight: 900;
+  font-weight: bold;
   font-size: 12px;
   line-height: 18px;
   font-style: normal;
+  list-style-type: none;
 }
 
-/* @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .intro__ul {
-    padding-bottom: 88px;
+    min-width: 720px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .intro__ul {
-    padding-bottom: 64px;
+    min-width: 288px;
   }
-} */
+}

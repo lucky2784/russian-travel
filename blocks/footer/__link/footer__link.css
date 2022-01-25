@@ -10,6 +10,10 @@
     transition: 0.3s ease;
   }
 
+  .footer__link:hover {
+    opacity: .7;
+  }
+
   @media screen and (max-width: 768px) {
     .footer__link {
       padding-bottom: 24px;

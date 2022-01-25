@@ -1,6 +1,6 @@
 .cover {
-  min-height: 740px;
   max-width: 1184px;
+  min-height: 740px;
   padding-top: 92px;
   padding-left: 48px;
   padding-right: 48px;
@@ -21,7 +21,6 @@
     min-height: 480px;
     padding-top: 90px;
     padding-bottom: 88px;
-    padding-right: 0;
   }
 }
 

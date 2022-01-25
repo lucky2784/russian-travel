@@ -9,18 +9,13 @@
 }
 
 .place__paragraph:not(:last-child) {
-  padding-bottom: 0;
-}
-
-@media screen and (max-width: 768px) {
-  .place__paragraph {
-    padding-left: 16px;
-    font-size: 16px;
-  }
+  padding-bottom: 25px;
 }
 
 @media screen and (max-width: 320px) {
   .place__paragraph {
     padding-left: 16px;
+    padding-right: 16px;
+    font-size: 16px;
   }
 }

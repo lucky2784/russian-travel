@@ -8,23 +8,20 @@
   opacity: 0.3;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .place__image {
     max-width: 440px;
-    width: 100%;
   }
 }
 
 @media screen and (max-width: 768px) {
   .place__image {
     max-width: 340px;
-    width: 100%;
   }
 }
 
 @media screen and (max-width: 320px) {
   .place__image {
     max-width: 320px;
-    width: 100%;
   }
 }

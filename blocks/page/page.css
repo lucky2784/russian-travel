@@ -2,32 +2,19 @@
   display: flex;
   flex-direction: column;
   max-width: 1280px;
-  min-height: 6875px;
   box-sizing: content-box;
   background: #2a2c2f;
   color: #fff;
-  font-family: "Inter", sans-serif;
+  font-family: "Inter", "Arial", sans-serif;
   margin: 0 auto;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%; 
+  -moz-text-size-adjust: 100%;
 }
 
 @media screen and (max-width: 1024px) {
-  .page {
-    max-width: 100%;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .page {
-    max-width: 100%;
-  }
-}
-
-@media screen and (max-width: 320px) {
   .page {
     max-width: 100%;
   }
