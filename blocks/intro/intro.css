@@ -3,30 +3,32 @@
   flex-direction: column;
   max-width: 690px;
   margin: 0;
-  padding-top: 92px;
-  padding-left: 148px;
-  padding-bottom: 92px;
+  margin-top: 92px;
+  margin-left: 148px;
+  margin-right: 442px;
+  margin-bottom: 92px;
 }
 
 @media screen and (max-width: 1024px) {
   .intro {
-    padding-right: 286px;
-    padding-left: 48px;
+    margin-right: 286px;
+    margin-left: 48px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .intro {
     max-width: 720px;
-    padding-right: 24px;
-    padding-left: 24px;
-    padding-bottom: 88px;
+    margin-top: 88px;
+    margin-right: 24px;
+    margin-left: 24px;
+    margin-bottom: 88px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .intro {
     max-width: 288px;
-    padding: 64px 16px 64px;
+    margin: 64px 16px 64px;
   }
 }

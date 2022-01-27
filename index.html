@@ -11,8 +11,8 @@
     <header class="header">
       <img class="header__logo" src="./images/header-logo.svg" alt="Россия" />
       <ul class="header__lang-links">
-        <li class="header__lang-link header__lang-link_active">Ru</li>
-        <li class="header__lang-link">En</li>
+        <a href class="header__lang-link header__lang-link_active">Ru</a>
+        <a href class="header__lang-link">En</a>
       </ul>
     </header>
     <main>
@@ -240,20 +240,11 @@
           />
           <div class="place__container">
             <p class="place__paragraph">
-              Почти весь полуостров находится за&nbsp;Полярным кругом. Саамская
-              тундра, от&nbsp;которой на&nbsp;юг&nbsp;&mdash; тайга,
-              а&nbsp;на&nbsp;север&nbsp;&mdash; Ледовитый океан, прикидывающийся
-              Баренцевым морем.
+              Всем известен Байкал как крупнейшее озеро в мире. Многие также знают, что это самый большой источник пресной воды и одно из красивейших мест в России.
             </p>
             <p class="place__paragraph">
-              Возможно, вы&nbsp;смотрели Звягинцева и&nbsp;даже слышали историю
-              арктического фестиваля в&nbsp;Териберке. Возможно, слово
-              &laquo;Хибины&raquo; не&nbsp;осталось под снегом школьных
-              воспоминаний об&nbsp;уроках географии. Возможно, вы&nbsp;не
-              интересовались пронизывающей земную кору сверхглубокой скважиной,
-              а от&nbsp;апатитов вас давно накрывает апатия. Но&nbsp;ваша мечта
-              увидеть северное сияние начинает сбываться с&nbsp;билетом
-              в&nbsp;Мурманск.
+              Конечно, это всё так. Но Байкал ещё идеальное место для соревнований по скийорингу. Это такой вид спорта, когда лыжник привязывает себя к мотоциклу,
+              и тандем старается развить как можно бóльшую скорость на льду. В марте 2019 года на фестивале «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.
             </p>
           </div>
         </article>
@@ -305,11 +296,23 @@
     </main>
     <footer class="footer">
       <nav>
-        <a class="footer__link" href="https://yandex.ru/maps">Карты</a>
-        <a class="footer__link" href="https://yandex.ru/pogoda">Погода</a>
-        <a class="footer__link" href="https://rasp.yandex.ru">Расписание</a>
-        <a class="footer__link" href="https://calendar.yandex.ru">Календарь</a>
-        <a class="footer__link" href="https://travel.yandex.ru">Путешествия</a>
+        <ul class="footer__links">
+          <li>
+        <a class="footer__link" href="https://yandex.ru/maps" target="blanc">Карты</a>
+      </li>
+      <li>
+        <a class="footer__link" href="https://yandex.ru/pogoda" target="blanc">Погода</a>
+      </li>
+      <li>
+        <a class="footer__link" href="https://rasp.yandex.ru" target="blanc">Расписание</a>
+      </li>
+      <li>
+        <a class="footer__link" href="https://calendar.yandex.ru" target="blanc">Календарь</a>
+      </li>
+      <li>
+        <a class="footer__link" href="https://travel.yandex.ru" target="blanc">Путешествия</a>
+      </li>
+      </ul>
       </nav>
       <p class="footer__copyright">&copy; 2021. Сивцева Елена</p>
     </footer>
