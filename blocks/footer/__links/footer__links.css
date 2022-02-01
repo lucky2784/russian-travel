@@ -1,22 +1,21 @@
-
 .footer__links {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	font-weight: normal;
-	/* gap: 18px; */
-	list-style-type: none;
-	align-self: end;
-	margin: 0;
-	padding: 0;
-	color: #fff;
-	}
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-weight: normal;
+  gap: 18px;
+  list-style-type: none;
+  align-self: end;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
 
 
 
-  @media screen and (max-width: 320px) {
-    .footer__links {
-      flex-direction: column;
-      row-gap: 32px;
-    }
+@media screen and (max-width: 425px) {
+  .footer__links {
+  flex-direction: column;
+  gap: 32px;
   }
+}

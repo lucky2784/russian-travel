@@ -1,18 +1,16 @@
 .cover {
   max-width: 1184px;
   min-height: 740px;
-  margin:auto;
+  margin:0 auto;
   margin-top: 92px;
-  /* margin-left: 48px; */
-  /* margin-right: 48px; */
+
 }
 
 @media screen and (max-width: 1024px) {
   .cover {
     max-width: 100%;
     min-height: 640px;
-    margin-left: 0;
-    margin-right: 0;
+
   }
 }
 

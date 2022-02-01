@@ -3,13 +3,14 @@
   flex-direction: column;
   /* justify-content: column; */
   align-items: center;
-  max-width: 1184px;
-  margin: auto;
-  margin-top: 0;
+  max-width: 984px;
+  margin: 0 auto;
+  /* margin-top: 0;
   margin-right: 148px;
-  margin-left: 148px;
+  margin-left: 148px; */
   /* padding-top: 56px; */
   box-sizing: border-box;
+  /* border: 1px solid red; */
 }
 
 @media screen and (max-width: 1024px) {
@@ -36,6 +37,7 @@
 @media screen and (max-width: 320px) {
   .lead {
     max-width: 320px;
-    margin-left: 2px;
+    max-height: 406px;
+    /* margin-left: 2px; */
   }
 }
