@@ -2,7 +2,7 @@
   width: 100%;
   padding-bottom: 80px;
   display: grid;
-  grid-template-columns: repeat(2, auto);
+  grid-template-columns: 460px auto;
   gap: 40px;
   row-gap: 48px;
   /* border: 1px solid red; */
@@ -14,12 +14,14 @@
 
 @media screen and (max-width: 1024px) {
   .place {
+    grid-template-columns: 440px auto;
     gap: 32px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .place {
+    grid-template-columns: 340px auto;
     gap: 28px;
     padding-bottom: 73px;
   }
