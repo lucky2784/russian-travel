@@ -18,9 +18,10 @@
     font-size: 16px;
   }
 }
-@media screen and (max-width: 585px) {
+
+@media screen and (max-width: 355px) {
   .place__paragraph {
-    padding-left: 16px;
-    padding-right: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
   }
 }

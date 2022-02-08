@@ -1,6 +1,6 @@
 .page {
   max-width: 1280px;
-  /* min-height: 6875px; */
+  max-height: 6875px;
   /* display: flex;
   flex-direction: column;
   justify-content: center;
@@ -16,7 +16,7 @@
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
-  /* border: 1px solid red; */
+  border: 1px solid red;
 }
 
 /* @media screen and (max-width: 320px) {

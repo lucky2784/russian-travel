@@ -11,7 +11,11 @@
   color: #fff;
 }
 
-
+@media screen and (max-width: 711px) {
+  .footer__links {
+    column-gap: 10px;
+  }
+}
 
 @media screen and (max-width: 425px) {
   .footer__links {
