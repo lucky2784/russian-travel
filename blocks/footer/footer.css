@@ -2,22 +2,23 @@
   display: flex;
   flex-wrap: wrap;
   max-width: 1184px;
-  padding: 92px 48px 24px;
+  /* margin: 0; */
+  margin: 92px 48px 24px;
+  /* margin: 0 auto; */
   justify-content: space-between;
-  margin: 0;
 }
 
 @media screen and (max-width: 1024px) {
   .footer {
     max-width: 928px;
-    flex-wrap: wrap;
+    margin: 92px 48px 24px;
   }
 }
 
 @media screen and (max-width: 768px) {
 	.footer {
     max-width: 720px;
-		padding: 88px 24px 24px;
+		margin: 88px 24px 24px;
 		/* gap: 48px; */
 	}
 }
@@ -28,7 +29,7 @@
     display: block;
     max-width: 186px;
     min-height: 310px;
-    padding: 64px 16px 24px;
+    margin: 64px 16px 24px;
   }
 }
 /*

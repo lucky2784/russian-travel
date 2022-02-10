@@ -1,6 +1,6 @@
 .lead__title {
   max-width: 720px;
-  padding-bottom: 32px;
+  /* padding-bottom: 32px; */
   /* padding-left: 132px;
   padding-right: 132px; */
   margin: 0 auto;
@@ -15,8 +15,7 @@
 
 @media screen and (max-width: 1024px) {
   .lead__title {
-    /* margin-left: 104px;
-    margin-right: 104px; */
+  margin: 0 104px 0;
   }
 }
 

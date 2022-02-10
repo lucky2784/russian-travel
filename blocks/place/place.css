@@ -16,6 +16,7 @@
   .place {
     grid-template-columns: 440px auto;
     gap: 32px;
+    row-gap: 48px;
   }
 }
 
@@ -23,6 +24,7 @@
   .place {
     grid-template-columns: 340px auto;
     gap: 28px;
+    row-gap: 48px;
     padding-bottom: 73px;
   }
 }
