@@ -15,16 +15,16 @@
 
 @media screen and (max-width: 1024px) {
   .lead__title {
-  margin: 0 104px 0;
+    margin: 0 104px 0;
   }
 }
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   .lead__title {
     /* margin-left: 24px;
-    margin-right: 24px; */
+    margin-right: 24px; 
   }
-}
+} */
 
 @media screen and (max-width: 709px) {
   .lead__title {

@@ -12,7 +12,7 @@
 
 @media screen and (max-width: 355px) {
   .place__url-heading {
-   padding-left: 16px;
-   padding-right: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
   }
 }

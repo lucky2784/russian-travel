@@ -1,6 +1,6 @@
 .place__container {
   display: flex;
-	flex-direction: column;
+  flex-direction: column;
   /* max-width: 484px; */
   width: 100%;
   gap: 26px
@@ -22,7 +22,7 @@
 }
 
 
- /* @media screen and (max-width: 320px) {
+/* @media screen and (max-width: 320px) {
   .place__container {
     /* width: 100%; 
 
