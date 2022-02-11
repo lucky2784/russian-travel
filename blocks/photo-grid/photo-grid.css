@@ -33,7 +33,7 @@
  @media screen and (max-width: 385px) {
    .photo-grid {
      max-width: 288px;
-     grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
+     grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
      gap: 12px;
      margin-left: 16px;
      margin-right: 16px;
@@ -41,8 +41,8 @@
    }
  }
 
- @media screen and (max-width: 355px) {
+ /* @media screen and (max-width: 355px) {
    .photo-grid {
      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
    }
- }
+ } */
